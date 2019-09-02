@@ -3,8 +3,8 @@ export class PokemonId {
     id: number;
     sprites: Sprites;
     weight: number;
-    height:number;
-    stats:[];
+    height: number;
+    stats: string;
     abilities: [];
     type: string;
 

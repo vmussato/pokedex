@@ -1,18 +1,21 @@
-# pokedexAngular
+# Pokedex
 
-Install aplication is.
+Ésta é uma aplicação simples que utiliza a pokeApi para exibir dados de pokemos
+e ng2-charts para criar um gráfico com os status dos pokemons.
 
-  - nodeJS install verify is node -v.
-  - npm install
+Insira o número ou nome de um pokemon e clique enter para ver o resultado.
+
+# Rodando localmente
+
+Certifique-se de que você tem instalados:
+
+  - nodeJs (de preferência versão 10+)
+  - angular cli
+
+# Para iniciar rode:
+
+  - npm install (ou yarn se ele estiver instalado)
   - npm start
 
-# Using Docker
 
- three methods steps using docker.
- 
- 1. docker local the next steps
-  - npm run build or ng build --prod
-  - docker image build -t pokedexangular .
-  - docker run -p 3000:80 --rm pokedexangular
- 
-this step two is reference create and generate container name pokedexAngular. Third step is run localhost machine is port 3000 example localhost:3000
+

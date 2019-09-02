@@ -11,6 +11,21 @@
       "schematics": {
         "@schematics/angular:component": {
           "styleext": "scss"
+        },
+        "@schematics/angular:component": {
+          "spec": false
+        },
+        "@schematics/angular:directive": {
+            "spec": false
+        },
+        "@schematics/angular:modules": {
+            "spec": false
+        },
+        "@schematics/angular:pipe": {
+            "spec": false
+        },
+        "@schematics/angular:class": {
+            "spec": false
         }
       },
       "architect": {
